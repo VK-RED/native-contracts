@@ -1,0 +1,12 @@
+[package]
+name = "pda"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["lib", "cdylib"]
+
+[dependencies]
+borsh = {version = "1.5.7", features = ["derive"]}
+solana-program = "2.2.1"
+thiserror = "2.0.12"
